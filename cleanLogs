@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+### END INIT INFO
+#
+#set -e
+#set -u
+#${DEBIAN_SCRIPT_DEBUG:+ set -v -x}
+
+rm -rf /var/www/punjab-new/twistd.log.???
+rm -rf /var/www/punjab-new/twistd.log.??

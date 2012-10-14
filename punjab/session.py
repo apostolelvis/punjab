@@ -232,7 +232,7 @@ class Session(jabber.JabberClientFactory, server.Session):
 
     def rawDataIn(self, buf):
         """ Log incoming data on the xmlstream """
-        if self.pint.v:
+        if self.pint is not None and self.pint.v:
             try:
                 log.msg("SID: %s => RECV: %r" % (self.sid, buf,))
             except:

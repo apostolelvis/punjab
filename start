@@ -1,0 +1,4 @@
+#!/bin/bash
+#twistd --pidfile "/var/www/punjab-new/twistd.pid" --logfile "/dev/null" --python /var/www/punjab-new/punjab.tac
+twistd --pidfile "/var/www/punjab-new/twistd.pid" --python /var/www/punjab-new/punjab.tac
+
